@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #47aeff;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+#game {
+    background-color: #f26c6c;
+    border: 10px solid #333;
+    box-shadow: 0 0 20px #333;
+}
+
+canvas {
+    padding-bottom: 10px;
+}
+
+
+/* 
+colours 
+#f26c6c red
+#47aeff blue
+ */
